@@ -1,10 +1,16 @@
 
 // example of inheritnace 
 // using system;
-namespace Demo
-{
+    
     public class BaseClass
     {
+        public static void Main()
+        {
+            ChildClass1 obj = new ChildClass1();
+            obj.age = 21;
+            obj.fullName = "Harry Bhatta";
+            obj.ShowData();
+        }
         public int age;
         public string fullName;
     }
@@ -12,7 +18,6 @@ namespace Demo
     {
        public void ShowData()
         {
-            Console.WriteLine($"my name is {fullName} and my age is{age}");
+            Console.WriteLine($"my name is {fullName} and my age is {age}");
         }
     }
-}
