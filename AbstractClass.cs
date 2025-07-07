@@ -3,12 +3,12 @@ namespace LearnAbstractClass
 {
     public abstract class LearnAbstract
     {
-        static void Main()
-        {
-            AbstractChild child1 = new AbstractChild();
-            child1.Read();
-            child1.WithBody();
-        }
+        // static void Main()
+        // {
+        //     AbstractChild child1 = new AbstractChild();
+        //     child1.Read();
+        //     child1.WithBody();
+        // }
         public abstract void Read();
         public  void WithBody()
         {
